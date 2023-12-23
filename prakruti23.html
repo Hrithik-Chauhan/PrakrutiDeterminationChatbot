@@ -1,0 +1,634 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prakruti Determination Chatbot</title>
+    <link rel="stylesheet" href="prakruti23.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0" />
+</head>
+<body class="active">
+    <header class="">
+        <div class="bx bx-sun" id="darkmode"></div>
+        <div class="bx bx-menu" id="menu-icon"></div>
+ 
+        <ul class="navbar">
+            <li><a href="Prakruti.html">Home</a></li>
+            <li><a href="Prakruti.html">About</a></li>
+            <li><a href="Prakruti.html">Technology Stacks</a></li>
+            <li><a href="Prakruti.html">Contact</a></li>
+            
+        </ul>
+    </header>
+
+</head>
+<body>
+    
+    <section class="about" id="about">
+        <a class="btn1" href="prakruti.html">Back</a>
+        <div class="heading">
+            <h2>Know About Your Prakruti</h2>
+        </div>
+        <!-- About Content -->
+        <div class="fade-in" data-delay="0.5s">
+        <div class="about-container">
+            <div class="about-img">
+                <img src="https://cdn.shopify.com/s/files/1/0081/6332/8057/files/IecFr2uBS8i8dUasfg8s_what_is_your_dosha_large.png?v=1546090008" alt="">
+            </div>
+          
+        </div>
+        </div>
+    </section>
+    <div class="Future">
+    <div class="question">
+        <p>BODY FRAME</p>
+    </div>
+
+    <div class="options">
+        <div class="option">
+            <input type="radio" name="answer1"  id="option11" data-dosha="vata">
+            <label for="option11" onclick="selectRadio('option11')">A. Thin and Lean</label>
+        </div>
+
+        <div class="option">
+            <input type="radio" name="answer1" id="option21" data-dosha="pitta">
+            <label for="option21" onclick="selectRadio('option21')">B. Medium</label>
+        </div>
+
+        <div class="option">
+            <input type="radio" name="answer1" id="option31" data-dosha="kapha">
+            <label for="option31" onclick="selectRadio('option31')">C. Well Built</label>
+        </div>
+    </div>
+          <br>
+          <div class="question">
+            <p>Type Of Hair</p>
+        </div>
+    
+        <div class="options">
+            <div class="option">
+                <input type="radio" name="answer2"  id="option12" data-dosha="vata">
+                <label for="option12" onclick="selectRadio('option12')">A. Dry and With Split End</label>
+            </div>
+    
+            <div class="option">
+                <input type="radio" name="answer2" id="option22" data-dosha="pitta">
+                <label for="option22" onclick="selectRadio('option22')">B. Normal,Thin,More Hair Fall</label>
+            </div>
+    
+            <div class="option">
+                <input type="radio" name="answer2" id="option32" data-dosha="kapha">
+                <label for="option32" onclick="selectRadio('option32')">C. Greasy, Heavy</label>
+            </div>
+        </div>
+              <br>
+              <div class="question">
+                <p>Color of Hair</p>
+            </div>
+        
+            <div class="options">
+                <div class="option">
+                    <input type="radio" name="answer3"  id="option13" data-dosha="vata">
+                    <label for="option13" onclick="selectRadio('option13')">A. Pale Brown</label>
+                </div>
+        
+                <div class="option">
+                    <input type="radio" name="answer3" id="option23" data-dosha="pitta">
+                    <label for="option23" onclick="selectRadio('option23')">B. Grey</label>
+                </div>
+        
+                <div class="option">
+                    <input type="radio" name="answer3" id="option33" data-dosha="kapha">
+                    <label for="option33" onclick="selectRadio('option33')">C. Black</label>
+                </div>
+            </div>
+                  <br>
+                  <div class="question">
+                    <p>Skin</p>
+                </div>
+            
+                <div class="options">
+                    <div class="option">
+                        <input type="radio" name="answer4"  id="option14" data-dosha="vata">
+                        <label for="option14" onclick="selectRadio('option14')">A. Dry and Rough</label>
+                    </div>
+            
+                    <div class="option">
+                        <input type="radio" name="answer4" id="option24" data-dosha="pitta">
+                        <label for="option24" onclick="selectRadio('option24')">B. Soft,More Sweating ,Acne</label>
+                    </div>
+            
+                    <div class="option">
+                        <input type="radio" name="answer4" id="option34" data-dosha="kapha">
+                        <label for="option34" onclick="selectRadio('option34')">C. Moist,Greasy</label>
+                    </div>
+                </div>
+                  <br> <div class="question">
+                    <p>Complexion</p>
+                </div>
+            
+                <div class="options">
+                    <div class="option">
+                        <input type="radio" name="answer5"  id="option15" data-dosha="vata">
+                        <label for="option15" onclick="selectRadio('option15')">A. Dark, Blackish</label>
+                    </div>
+            
+                    <div class="option">
+                        <input type="radio" name="answer5" id="option25" data-dosha="pitta">
+                        <label for="option25" onclick="selectRadio('option25')">B. Pinkish, Shiny</label>
+                    </div>
+            
+                    <div class="option">
+                        <input type="radio" name="answer5" id="option35" data-dosha="kapha">
+                        <label for="option35" onclick="selectRadio('option35')">C. Glowing and White</label>
+                    </div>
+                </div>
+                  
+                <br>
+                <div class="question">
+                    <p>Body Weight</p>
+                </div>
+            
+                <div class="options">
+                    <div class="option">
+                        <input type="radio" name="answer6"  id="option16" data-dosha="vata">
+                        <label for="option16" onclick="selectRadio('option16')">A. Low</label>
+                    </div>
+            
+                    <div class="option">
+                        <input type="radio" name="answer6" id="option26" data-dosha="pitta">
+                        <label for="option26" onclick="selectRadio('option26')">B. Medium</label>
+                    </div>
+            
+                    <div class="option">
+                        <input type="radio" name="answer6" id="option36" data-dosha="kapha">
+                        <label for="option36" onclick="selectRadio('option36')">C. Over-Weight</label>
+                    </div>
+                </div>
+                  <br>
+                  <div class="question">
+                    <p>Nails</p>
+                </div>
+            
+                <div class="options">
+                    <div class="option">
+                        <input type="radio" name="answer7"  id="option17" data-dosha="vata">
+                        <label for="option17" onclick="selectRadio('option17')">A. Blackish</label>
+                    </div>
+            
+                    <div class="option">
+                        <input type="radio" name="answer7" id="option27" data-dosha="pitta">
+                        <label for="option27" onclick="selectRadio('option27')">B. Redish</label>
+                    </div>
+            
+                    <div class="option">
+                        <input type="radio" name="answer7" id="option37" data-dosha="kapha">
+                        <label for="option37" onclick="selectRadio('option37')">C. Pinkish</label>
+                    </div>
+                </div>
+                  
+                <br>
+                <div class="question">
+                    <p>Size and Color of Teeth</p>
+                </div>
+            
+                <div class="options">
+                    <div class="option">
+                        <input type="radio" name="answer8"  id="option18" data-dosha="vata">
+                        <label for="option18" onclick="selectRadio('option18')">A. Big and Blackish</label>
+                    </div>
+            
+                    <div class="option">
+                        <input type="radio" name="answer8" id="option28" data-dosha="pitta">
+                        <label for="option28" onclick="selectRadio('option28')">B. Medium and Yellowish</label>
+                    </div>
+            
+                    <div class="option">
+                        <input type="radio" name="answer8" id="option38" data-dosha="kapha">
+                        <label for="option38" onclick="selectRadio('option38')">C. Large and Shiny</label>
+                    </div>
+                </div>
+                  <br>
+                  <div class="question">
+                    <p>Pace of Perfornming Work</p>
+                </div>
+            
+                <div class="options">
+                    <div class="option">
+                        <input type="radio" name="answer9"  id="option19" data-dosha="vata">
+                        <label for="option19" onclick="selectRadio('option19')">A. Fast and Always in Hurry</label>
+                    </div>
+            
+                    <div class="option">
+                        <input type="radio" name="answer9" id="option29" data-dosha="pitta">
+                        <label for="option29" onclick="selectRadio('option29')">B. Medium and Energetic</label>
+                    </div>
+            
+                    <div class="option">
+                        <input type="radio" name="answer9" id="option39" data-dosha="kapha">
+                        <label for="option39" onclick="selectRadio('option39')">C. Slow and Steady</label>
+                    </div>
+                </div>
+                     <br>
+                     <div class="question">
+                        <p>Mental Activity</p>
+                    </div>
+                
+                    <div class="options">
+                        <div class="option">
+                            <input type="radio" name="answer10"  id="option110" data-dosha="vata">
+                            <label for="option110" onclick="selectRadio('option110')">A. Quick and Restless</label>
+                        </div>
+                
+                        <div class="option">
+                            <input type="radio" name="answer10" id="option210" data-dosha="pitta">
+                            <label for="option210" onclick="selectRadio('option210')">B. Smart and Aggressive</label>
+                        </div>
+                
+                        <div class="option">
+                            <input type="radio" name="answer10" id="option310" data-dosha="kapha">
+                            <label for="option310" onclick="selectRadio('option310')">C. Calm and Stable</label>
+                        </div>
+                    </div> 
+                    <br>
+                    <div class="question">
+                        <p>Memory</p>
+                    </div>
+                
+                    <div class="options">
+                        <div class="option">
+                            <input type="radio" name="answer11"  id="option111" data-dosha="vata">
+                            <label for="option111" onclick="selectRadio('option111')">A. Short Term Bad Memory</label>
+                        </div>
+                
+                        <div class="option">
+                            <input type="radio" name="answer11" id="option211" data-dosha="pitta">
+                            <label for="option211" onclick="selectRadio('option211')">B. Good Memory</label>
+                        </div>
+                
+                        <div class="option">
+                            <input type="radio" name="answer11" id="option311" data-dosha="kapha">
+                            <label for="option311" onclick="selectRadio('option311')">C. Long Term Best Memory</label>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="question">
+                        <p>Sleep Pattern</p>
+                    </div>
+                
+                    <div class="options">
+                        <div class="option">
+                            <input type="radio" name="answer12"  id="option112" data-dosha="vata">
+                            <label for="option112" onclick="selectRadio('option112')">A. Tnterrupted and Less</label>
+                        </div>
+                
+                        <div class="option">
+                            <input type="radio" name="answer12" id="option212" data-dosha="pitta">
+                            <label for="option212" onclick="selectRadio('option212')">B. Moderate</label>
+                        </div>
+                
+                        <div class="option">
+                            <input type="radio" name="answer12" id="option312" data-dosha="kapha">
+                            <label for="option312" onclick="selectRadio('option312')">C. Lazy</label>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="question">
+                        <p>Weather Conditions</p>
+                    </div>
+                
+                    <div class="options">
+                        <div class="option">
+                            <input type="radio" name="answer13"  id="option113" data-dosha="vata">
+                            <label for="option113" onclick="selectRadio('option113')">A. Dislikes Cold</label>
+                        </div>
+                
+                        <div class="option">
+                            <input type="radio" name="answer13" id="option213" data-dosha="pitta">
+                            <label for="option213" onclick="selectRadio('option213')">B. Dislike Heat</label>
+                        </div>
+                
+                        <div class="option">
+                            <input type="radio" name="answer13" id="option313" data-dosha="kapha">
+                            <label for="option313" onclick="selectRadio('option313')">C. Dislike Moist and Rainy</label>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="question">
+                        <p>Mood</p>
+                    </div>
+                
+                    <div class="options">
+                        <div class="option">
+                            <input type="radio" name="answer14"  id="option114" data-dosha="vata">
+                            <label for="option114" onclick="selectRadio('option114')">A. Changes Quickly Have Frequent Mood Swings</label>
+                        </div>
+                
+                        <div class="option">
+                            <input type="radio" name="answer14" id="option214" data-dosha="pitta">
+                            <label for="option214" onclick="selectRadio('option214')">B. Changes Slowly</label>
+                        </div>
+                
+                        <div class="option">
+                            <input type="radio" name="answer14" id="option314" data-dosha="kapha">
+                            <label for="option314" onclick="selectRadio('option314')">C. Stable Constant</label>
+                        </div>
+                    </div>  
+                    <br>
+                    <div class="question">
+                        <p>Eating Habit</p>
+                    </div>
+                
+                    <div class="options">
+                        <div class="option">
+                            <input type="radio" name="answer15"  id="option115" data-dosha="vata">
+                            <label for="option115" onclick="selectRadio('option115')">A. Eats Quickly Without Chewing Properly</label>
+                        </div>
+                
+                        <div class="option">
+                            <input type="radio" name="answer15" id="option215" data-dosha="pitta">
+                            <label for="option215" onclick="selectRadio('option215')">B. Eats as a Moderate Speed</label>
+                        </div>
+                
+                        <div class="option">
+                            <input type="radio" name="answer15" id="option315" data-dosha="kapha">
+                            <label for="option315" onclick="selectRadio('option315')">C. Chews Food Properly</label>
+                        </div>
+                    </div> 
+                    <br>
+                    <div class="question">
+                        <p>Hunger</p>
+                    </div>
+                
+                    <div class="options">
+                        <div class="option">
+                            <input type="radio" name="answer16"  id="option116" data-dosha="vata">
+                            <label for="option116" onclick="selectRadio('option116')">A. Irregular and Any Time</label>
+                        </div>
+                
+                        <div class="option">
+                            <input type="radio" name="answer16" id="option216" data-dosha="pitta">
+                            <label for="option216" onclick="selectRadio('option216')">B. Sudden Hunger Pangs and Sharp Hunger</label>
+                        </div>
+                
+                        <div class="option">
+                            <input type="radio" name="answer16" id="option316" data-dosha="kapha">
+                            <label for="option316" onclick="selectRadio('option316')">C. Can skip any Meal Easily</label>
+                        </div>
+                    </div> 
+                    <br>
+                    <div class="question">
+                        <p>Temperature</p>
+                    </div>
+                
+                    <div class="options">
+                        <div class="option">
+                            <input type="radio" name="answer17"  id="option117" data-dosha="vata">
+                            <label for="option117" onclick="selectRadio('option1')">A. Less than Normal</label>
+                        </div>
+                
+                        <div class="option">
+                            <input type="radio" name="answer17" id="option217" data-dosha="pitta">
+                            <label for="option217" onclick="selectRadio('option217')">B. More than Normal</label>
+                        </div>
+                
+                        <div class="option">
+                            <input type="radio" name="answer17" id="option317" data-dosha="kapha">
+                            <label for="option317" onclick="selectRadio('option317')">C. Normal</label>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="question">
+                        <p>Joints</p>
+                    </div>
+                
+                    <div class="options">
+                        <div class="option">
+                            <input type="radio" name="answer18"  id="option118" data-dosha="vata">
+                            <label for="option118" onclick="selectRadio('option118')">A. Weak and Noisy</label>
+                        </div>
+                
+                        <div class="option">
+                            <input type="radio" name="answer18" id="option218" data-dosha="pitta">
+                            <label for="option218" onclick="selectRadio('option218')">B. Healthy with Optimal Strength</label>
+                        </div>
+                
+                        <div class="option">
+                            <input type="radio" name="answer18" id="option318" data-dosha="kapha">
+                            <label for="option318" onclick="selectRadio('option318')">C. Heavy Weight Bearing</label>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="question">
+                        <p>Nature</p>
+                    </div>
+                
+                    <div class="options">
+                        <div class="option">
+                            <input type="radio" name="answer19"  id="option119" data-dosha="vata">
+                            <label for="option119" onclick="selectRadio('option119')">A. Fearful and Jealous</label>
+                        </div>
+                
+                        <div class="option">
+                            <input type="radio" name="answer19" id="option219" data-dosha="pitta">
+                            <label for="option219" onclick="selectRadio('option219')">B. Egoistic and Fearless</label>
+                        </div>
+                
+                        <div class="option">
+                            <input type="radio" name="answer19" id="option319" data-dosha="kapha">
+                            <label for="option319" onclick="selectRadio('option319')">C. Forgiving and Grateful</label>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="question">
+                        <p>Body Energy</p>
+                    </div>
+                
+                    <div class="options">
+                        <div class="option">
+                            <input type="radio" name="answer20"  id="option120" data-dosha="vata">
+                            <label for="option120" onclick="selectRadio('option120')">A. Become Low in Evening</label>
+                        </div>
+                
+                        <div class="option">
+                            <input type="radio" name="answer20" id="option220" data-dosha="pitta">
+                            <label for="option220" onclick="selectRadio('option220')">B. Moderate</label>
+                        </div>
+                
+                        <div class="option">
+                            <input type="radio" name="answer20" id="option320" data-dosha="kapha">
+                            <label for="option320" onclick="selectRadio('option320')">C. Excellent Energy Throughout the Day</label>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="question">
+                        <p>Quality of Voice</p>
+                    </div>
+                
+                    <div class="options">
+                        <div class="option">
+                            <input type="radio" name="answer21"  id="option121" data-dosha="vata">
+                            <label for="option121" onclick="selectRadio('option121')">A. Rough with Broken Words</label>
+                        </div>
+                
+                        <div class="option">
+                            <input type="radio" name="answer21" id="option221" data-dosha="pitta">
+                            <label for="option221" onclick="selectRadio('option221')">B. Fast and Commanding</label>
+                        </div>
+                
+                        <div class="option">
+                            <input type="radio" name="answer21" id="option321" data-dosha="kapha">
+                            <label for="option321" onclick="selectRadio('option321')">C. Soft and Deep</label>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="question">
+                        <p>Social Relations</p>
+                    </div>
+                
+                    <div class="options">
+                        <div class="option">
+                            <input type="radio" name="answer22"  id="option122" data-dosha="vata">
+                            <label for="option122" onclick="selectRadio('option122')">A. Makesless Friend Prefers Solitude</label>
+                        </div>
+                
+                        <div class="option">
+                            <input type="radio" name="answer22" id="option222" data-dosha="pitta">
+                            <label for="option222" onclick="selectRadio('option222')">B. Good Number Of Friends</label>
+                        </div>
+                
+                        <div class="option">
+                            <input type="radio" name="answer22" id="option322" data-dosha="kapha">
+                            <label for="option322" onclick="selectRadio('option322')">C. Loves to Socialize</label>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="question">
+                        <p>Wealth</p>
+                    </div>
+                
+                    <div class="options">
+                        <div class="option">
+                            <input type="radio" name="answer23"  id="option123" data-dosha="vata">
+                            <label for="option123" onclick="selectRadio('option123')">A. Spends without thinking</label>
+                        </div>
+                
+                        <div class="option">
+                            <input type="radio" name="answer23" id="option223" data-dosha="pitta">
+                            <label for="option223" onclick="selectRadio('option223')">B. Saves But Spends on Valuable Things</label>
+                        </div>
+                
+                        <div class="option">
+                            <input type="radio" name="answer23" id="option323" data-dosha="kapha">
+                            <label for="option323" onclick="selectRadio('option323')">C. Prefers More Savings</label>
+                        </div>
+                    </div>
+                    <br> 
+                    <div class="question">
+                        <p>Communication Skills</p>
+                    </div>
+                
+                    <div class="options">
+                        <div class="option">
+                            <input type="radio" name="answer24"  id="option124" data-dosha="vata">
+                            <label for="option124" onclick="selectRadio('option124')">A. Fast,Irrelevent Talk,Speech not Clear</label>
+                        </div>
+                
+                        <div class="option">
+                            <input type="radio" name="answer24" id="option224" data-dosha="pitta">
+                            <label for="option224" onclick="selectRadio('option224')">B. Good Speaker</label>
+                        </div>
+                
+                        <div class="option">
+                            <input type="radio" name="answer24" id="option324" data-dosha="kapha">
+                            <label for="option324" onclick="selectRadio('option324')">C. Authoritative</label>
+                        </div>
+                    </div>
+                    
+                    <a class="btn" input="submit">SUBMIT</a>
+                </div>
+                <div class="results" id="result"> </div>
+                <div id="additional-lines"></div>
+               
+
+<script>
+    function calculatePrakruti() {
+        var answers = document.querySelectorAll('input:checked');
+       if(answers.length < 23){
+           alert('Please Answer all Given Questions.');
+           return;
+       }
+        var vataCount = 0;
+        var pittaCount = 0;
+        var kaphaCount = 0;
+        answers.forEach(function(answer) {
+            var dosha = answer.getAttribute('data-dosha');
+            if (dosha === 'vata') {
+                vataCount++;
+            } else if (dosha === 'pitta') {
+                pittaCount++;
+            } else if (dosha === 'kapha') {
+                kaphaCount++;
+            }
+        });
+        var predominantDosha;
+if (vataCount > pittaCount && vataCount > kaphaCount) {
+    predominantDosha = 'Vata';
+} else if (pittaCount > vataCount && pittaCount > kaphaCount) {
+    predominantDosha = 'Pitta';
+} else if (kaphaCount > vataCount && kaphaCount > pittaCount) {
+    predominantDosha = 'Kapha';
+} else {
+    if (vataCount === pittaCount && vataCount === kaphaCount) {
+        predominantDosha = 'Mixed Dosha';
+    } else if (vataCount === pittaCount) {
+        predominantDosha = 'Vata-Pitta';
+    } else if (vataCount === kaphaCount) {
+        predominantDosha = 'Vata-Kapha';
+    } else if (pittaCount === kaphaCount) {
+        predominantDosha = 'Pitta-Kapha';
+    }
+}
+
+        var resultElement = document.getElementById('result');
+        resultElement.textContent = 'Your predominant dosha is: ' + predominantDosha;
+        var additionalLines = '';
+    switch (predominantDosha) {
+        case 'Vata':
+            additionalLines = 'Balancing Vata dosha involves adopting lifestyle and dietary practices that counteract its inherent qualities of dryness, coldness, lightness, and mobility.';
+            break;
+        case 'Pitta':
+            additionalLines = 'Balancing Pitta dosha involves adopting lifestyle and dietary practices that counteract its inherent qualities of heat, intensity, and sharpness.';
+            break;
+        case 'Kapha':
+            additionalLines = 'Balancing Kapha dosha involves adopting lifestyle and dietary practices that counteract its inherent qualities of heaviness, coldness, and stagnation.';
+            break;
+        // Add additional cases as needed
+        case 'Pitta-Kapha':
+            additionalLines='Individuals with a dominant Pitta-Kapha constitution would have characteristics and tendencies influenced by both Pitta and Kapha doshas. This means that their constitution may have a mix of qualities from both doshas, and they may experience health and personality traits associated with both.';
+            break;
+        case 'Vata-Kapha':
+            additionalLines='Vata-Kapha is a constitutional type in Ayurveda that results from a combination of the Vata and Kapha doshas. Ayurveda recognizes three primary doshas—Vata, Pitta, and Kapha—and each individual is believed to have a unique combination of these doshas, known as their Prakriti.';
+           break;
+        case 'Vata-Pitta':
+            additionalLines=' Vata-Pitta, are not rigid categories but dynamic and influenced by various factors such as diet, lifestyle, and seasonal changes. Balancing practices, including appropriate diet, lifestyle choices, and stress management, are recommended to maintain harmony and prevent imbalances associated with each dosha.';
+            break;
+        default:
+            // Default case for Mixed Dosha or other scenarios
+            additionalLines = 'Mixed dosha constitution, consulting with an Ayurvedic practitioner can provide personalized insights and recommendations for maintaining balance and well-being based on your unique constitution and any current imbalances. They may suggest specific dietary guidelines, lifestyle practices, and herbal remedies to support your overall health.';
+            break;
+    }
+
+    // Display the additional lines
+    var additionalLinesElement = document.getElementById('additional-lines');
+    additionalLinesElement.textContent = additionalLines;
+}
+    var submitButton = document.querySelector('.btn');
+    submitButton.addEventListener('click', calculatePrakruti);
+
+</script>
+
+    <script src="prakruti1.js"></script>
+    <script src="prakruti2.js"></script>
+</body></html>
