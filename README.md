@@ -3,8 +3,7 @@ Certainly! Here's a README file for the Prakruti Determination Website:
 ---
 
 # Prakruti Determination Website
-
-Prakruti Determination DEMO <a href="https://hrithik-chauhan.github.io/PrakrutiDeterminationChatbot/"> DEMO</a>
+<a href="https://hrithik-chauhan.github.io/PrakrutiDeterminationChatbot/"> Prakruti Determination DEMO</a>
 
 Welcome to the Prakruti Determination Website! This website is dedicated to helping individuals determine their Prakruti, which refers to the unique constitution of the human body according to Ayurveda, across different aspects.
 
