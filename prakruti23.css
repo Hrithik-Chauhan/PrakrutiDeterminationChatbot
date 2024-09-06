@@ -105,7 +105,7 @@ header.shadow {
 .home {
   height:100vh;
   margin-top: 10px;
-  background: url('peakpx.jpg');
+  background: url('../peakpx.jpg');
   background-size:cover;
   position:relative;
 }
